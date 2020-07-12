@@ -19,9 +19,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// import * as foo from "./src/foo.js";
-// import goo from "./src/@type/foo.d.ts";
-var foo = __importStar(require("./foo"));
+const foo = __importStar(require("./foo.ts"));
 console.log(Deno.args);
 console.log(foo instanceof Object);
 console.log(foo instanceof String);
