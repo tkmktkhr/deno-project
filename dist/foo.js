@@ -1,2 +1,2 @@
 /// <reference types="./foo.d.ts" />
-export const foo = "foo";
+export const foo = 1;
