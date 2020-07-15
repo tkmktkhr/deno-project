@@ -1,3 +1,4 @@
+// APIにあたるコアな実装
 import { Status, RouterContext } from "../deps.ts";
 
 export function getHome(ctx: RouterContext) {
