@@ -1,8 +1,14 @@
 import { RouterContext, Status } from "../deps.ts";
 
-export function getAll(ctx: RouterContext) {
+// 絶対パスでないとだめ
+const FILE_PATH = "./src/db/todos.json";
+
+export async function getAll(ctx: RouterContext) {
+  const data = await Deno.readFile(FILE_PATH);
+  const decoder = new TextDecoder();
+  const todos = JSON.parse(decoder.decode(data));
   ctx.response.status = Status.OK;
   ctx.response.body = {
-    todo: [],
+    todo: todos,
   };
 }
