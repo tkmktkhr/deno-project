@@ -1,4 +1,4 @@
-import { Context, green, cyan } from "../../deps.ts";
+import { Context, green, cyan } from "../deps.ts";
 
 export async function logger(ctx: Context, next: () => Promise<void>) {
   // ルータが走る前の処理

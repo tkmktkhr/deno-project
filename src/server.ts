@@ -1,4 +1,4 @@
-import { Application, bold, yellow } from "../deps.ts";
+import { Application, bold, yellow } from "./deps.ts";
 import { router } from "./router.ts";
 import { logger, errorHandler } from "./middlewares/mod.ts";
 

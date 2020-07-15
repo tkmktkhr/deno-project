@@ -1,4 +1,4 @@
-import { Context, isHttpError, Status } from "../../deps.ts";
+import { Context, isHttpError, Status } from "../deps.ts";
 
 export async function errorHandler(ctx: Context, next: () => Promise<void>) {
   try {
