@@ -6,7 +6,7 @@ interface Todo {
   updatedAt: string;
 }
 
-// 絶対パスでないとだめ
+// 起動ディレクトリからの絶対パスでないとだめ
 const FILE_PATH = "./src/db/todos.json";
 
 export async function getAll(): Promise<Todo[]> {
