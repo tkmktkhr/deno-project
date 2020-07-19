@@ -3,7 +3,8 @@
   "allow": {
     "net": true,
     "env": true,
-    "read": "./src/db"
+    "read": "./src/db",
+    "write": "./src/db"
   },
   "scripts": {
     "start": {
