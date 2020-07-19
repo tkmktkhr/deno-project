@@ -6,3 +6,5 @@ export const router = new Router();
 router.get("/", rootHandler.getHome);
 
 router.get("/todos", todoHandler.getAll);
+
+router.get("/todos/:id", todoHandler.get);

@@ -3,3 +3,6 @@ GET http://localhost:8000/
 
 ###
 GET http://localhost:8000/todos
+
+###
+GET http://localhost:8000/todos/5dcff277-b58e-41cf-b577-bc150e71e03d
