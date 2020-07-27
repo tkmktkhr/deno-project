@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": {
-      "cmd": "deno run ./src/server.ts ",
+      "cmd": "deno run -c tsconfig.json ./src/server.ts ",
       "desc": "Run the main server"
     }
   },
